@@ -44,16 +44,18 @@ h1{
 /*table*/
 
 th, td{
-    width: 300px;
+    width: 330px;
     padding: 0;
 }
-th{
+thead{
     background-color: rgb(60, 153, 224);
     color: white;
 }
 .tr-color{
     background-color: rgb(144, 189, 202);
 }
+
+/*TABLE WITH DIV*/
 
 /* FOOTER*/
 .footertitle{
