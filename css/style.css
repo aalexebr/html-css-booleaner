@@ -6,6 +6,7 @@ header{
     background-image: url('../img/pattern.png');
     background-size: cover;
     background-size: contain;
+    width: 1100px;
 }
 .logo{
     height: 60px;
@@ -36,12 +37,42 @@ h1{
 .images{
     margin-top: 20px;
 }
+.highlighted{
+    background-color: yellow;
+}
 
 /*table*/
 
 th, td{
     width: 300px;
+    padding: 0;
 }
 th{
     background-color: rgb(60, 153, 224);
+    color: white;
+}
+.tr-color{
+    background-color: rgb(144, 189, 202);
+}
+
+/* FOOTER*/
+.footertitle{
+    
+    color: grey;
+}
+.footer-image{
+    width: 250px;
+    height: 175px;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    
+}
+.link-image1{
+    background-image: url('../img/monitor.jpg');
+}
+.link-image2{
+    background-image: url('../img/graph.jpg');
 }
