@@ -41,7 +41,8 @@ h1{
     background-color: yellow;
 }
 
-/*table*/
+/*table
+
 
 th, td{
     width: 330px;
@@ -54,8 +55,25 @@ thead{
 .tr-color{
     background-color: rgb(144, 189, 202);
 }
-
+*/
 /*TABLE WITH DIV*/
+.row{
+    display: inline-block;
+    width: 30%;
+}
+.row-head{
+    background-color: rgb(4, 134, 248);
+    color: white;
+    font-weight: bold;
+}
+.row1, .row3{
+    background-color: rgb(110, 181, 235);
+}
+.left-row, .middle-row{
+    margin: auto;
+
+
+}
 
 /* FOOTER*/
 .footertitle{
